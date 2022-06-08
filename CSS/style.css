@@ -243,6 +243,17 @@ button.floating-btn:hover {
   overflow: scroll;
   height: 10rem;
 }
+.selectedIngredients {
+  overflow: scroll;
+  height: 10rem;
+  width: 20rem;
+}
+.selectedIngredients button{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-color:   green;
+}
 #addBtn{
   background-color: green;
 }
