@@ -246,16 +246,19 @@ button.floating-btn:hover {
 .selectedIngredients {
   overflow: scroll;
   height: 10rem;
-  width: 20rem;
+  width: 30rem;
 }
 .selectedIngredients button{
   display: flex;
   flex-direction: row;
   justify-content: right;
-  background-color:   green;
+  background-color:   red;
 }
-#addBtn{
+.ingList button{
   background-color: green;
+}
+a{
+  color: red;
 }
 
 @media screen and (max-width: 480px) {
