@@ -260,7 +260,13 @@ button.floating-btn:hover {
 a{
   color: red;
 }
-
+.signIn{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px;
+}
 @media screen and (max-width: 480px) {
 
   .social-panel-container.visible {
